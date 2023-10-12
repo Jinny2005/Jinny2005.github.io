@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: local("KaushanScript-Regular"),
+        url("KaushanScript-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: local("SourceSansPro-Regular"),
+        url("SourceSansPro-Regular.otf") format("opentype");
+}
+
+body {
+    font-family: SourceSansPro-Regular, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: KaushanScript-Regular, Arial, sans-serif;
+    font-size: 60px;
+    letter-spacing: 50px;
+}
+
+h2 {
+    font-family: KaushanScript-Regular, Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+header {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    background: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: black;
+    color: red;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.introduction {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 2rem 0;
+    padding: 2rem;
+    transition: 0.5s;
+}
+
+.conclusion {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 2rem 0;
+    padding: 2rem;
+    transition: 0.5s;
+}
+
+.regular-block {
+    background: #ffffff;
+    margin: 2rem 0;
+    padding: 2rem;
+    transition: 0.5s;
+}
+
+.regular-block:hover {
+    background: #ffffff;
+    color: red;
+}
+
+.first {
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+}
+
+.last {
+    padding-top: 2rem;
+}
